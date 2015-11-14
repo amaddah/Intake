@@ -5,10 +5,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.view.TextureView;
 import android.view.View;
-import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.*;
 import org.w3c.dom.Text;
 
 public class MyActivity extends Activity implements View.OnClickListener {
@@ -54,8 +51,7 @@ public class MyActivity extends Activity implements View.OnClickListener {
                 }
                 else {
                     // Pas bon
-                    s = (TextView) findViewById(R.id.problemePresentation);
-                    s.setVisibility(View.VISIBLE);
+                    Toast.makeText(MyActivity.this, "Oh oh, tu n'as pas coché la case \"Ce projet me plait\".", Toast.LENGTH_SHORT).show();
                 }
                 break;
         }

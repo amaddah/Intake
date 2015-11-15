@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MangaForEver</string>
+    <string name="app_name">Intake</string>
     <string name="prenom">Quel est votre prenom ?</string>
     <string name="boutonMain">Ok</string>
     <string name="name">Prenom</string>
     <string name="salutations">Prenom</string>
-    <string name="presentationProjet">Bienvenue sur le projet MangaForEver.\nMangaForEver a pour but de créer une application complète et sur-mesure pour tous les fans de mangas.\n ... Permettre une lecture confortable d\'un maximum de mangas ... \n ... Mettre à disposition à tout moment des informations sur divers personnages ... \n ... des liens de discussions intéressantes sur l\'arc en cours ... \n ... ou encore des vidéos Youtube en lien avec le chapitre en cours de lecture ... \n\n Tout cela est dans nos priorités.\nSi ce projet te plait, coche la case suivante et clique sur j\'entre.</string>
+    <string name="presentationProjet">Bienvenue sur le projet Intake.\nIntake a pour but de créer une application complète et sur-mesure pour tous les fans de mangas.\n ... Permettre une lecture confortable d\'un maximum de mangas ... \n ... Mettre à disposition à tout moment des informations sur divers personnages ... \n ... des liens de discussions intéressantes sur l\'arc en cours ... \n ... ou encore des vidéos Youtube en lien avec le chapitre en cours de lecture ... \n\n Tout cela est dans nos priorités.\nSi ce projet te plait, coche la case suivante et clique sur j\'entre.</string>
     <string name="plaitIl">Ce projet me plait</string>
     <string name="jentre">J\'entre</string>
     <string name="comingsoon">Coming soon ...</string>

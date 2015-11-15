@@ -3,16 +3,12 @@
               xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              tools:context=".MyActivity">
+              tools:context=".MyActivity" android:weightSum="1">
     <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:id="@+id/ic_brsk" android:layout_gravity="center_horizontal"
-            android:background="@mipmap/ic_brsk"/>
-    <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"/>
+            android:background="@mipmap/ic_brsk" android:layout_weight="0.20"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

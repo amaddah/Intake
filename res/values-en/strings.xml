@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MangaForEver</string>
+    <string name="prenom">What\'s your name ?</string>
+    <string name="boutonMain">Ok</string>
+    <string name="name">Name</string>
+    <string name="salutations">Name</string>
+    <string name="presentationProjet">Welcome on the MangaForEver project.\nMangaForEver aims to create a complete and personalized application for mangas fans.\n ...Read confortably a maximum of mangas from differents sources ... \n ... Have the possibility to get informations about a specific character ... \n ... interesting forum links about the current arc... \n ... or Youtube videos about the chapter your are reading ... \n All these objectives are our priorities.\nIf you like this project idea, check the next box and clic on \"I enter\".</string>
+    <string name="plaitIl">I like this project idea</string>
+    <string name="jentre">I enter</string>
+    <string name="comingsoon">Coming soon ...</string>
+    <string name="ideeprojet">Oh oh, you had not checked the box \"I like this project idea\".</string>
+    <string name="firstimage">firstImg</string>
+</resources>

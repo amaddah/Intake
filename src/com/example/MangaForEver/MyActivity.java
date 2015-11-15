@@ -2,11 +2,8 @@ package com.example.MangaForEver;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.provider.Settings;
-import android.view.TextureView;
 import android.view.View;
 import android.widget.*;
-import org.w3c.dom.Text;
 
 public class MyActivity extends Activity implements View.OnClickListener {
     /**
@@ -23,9 +20,7 @@ public class MyActivity extends Activity implements View.OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
         boutonMain = (Button) findViewById(R.id.boutonMain);
-
         boutonMain.setOnClickListener(this);
     }
 
@@ -36,23 +31,16 @@ public class MyActivity extends Activity implements View.OnClickListener {
             case R.id.boutonMain:
                 t = (EditText) findViewById(R.id.name);
                 prenom = t.getText().toString();
-
                 setContentView(R.layout.presentation);
                 s = (TextView) findViewById(R.id.prenomAffiche);
                 s.setText("Bonjour " + prenom + " !");
                 boutonEntrer = (Button) findViewById(R.id.jentre);
-                boutonEntrer.setOnClickListener(this);
+                boutonEntrer.setOnClickListener(this); // Bouton "j'entre" guidant vers l'application en-elle même.
                 break;
             case R.id.jentre:
                 plaitIl = (CheckBox) findViewById(R.id.plaitIl);
-                if ( plaitIl.isChecked() ) {
-                    // C'est bon
-                    setContentView(R.layout.finintro);
-                }
-                else {
-                    // Pas bon
-                    Toast.makeText(MyActivity.this, "Oh oh, tu n'as pas coché la case \"Ce projet me plait\".", Toast.LENGTH_SHORT).show();
-                }
+                if ( plaitIl.isChecked() ) setContentView(R.layout.finintro);// C'est bon
+                else Toast.makeText(MyActivity.this, R.string.ideeprojet, Toast.LENGTH_SHORT).show();// Pas bon
                 break;
         }
     }
